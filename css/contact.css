@@ -157,13 +157,6 @@
     background-color: white;
 }
 
-.main {
-    width: 80%;
-    margin: 210px auto;
-    background-color: blue;
-    height: 500px;
-}
-
 .search-icon button {
     background-color: white;
     border: none;
@@ -171,4 +164,11 @@
     font-size: 17px;
     color: black;
     outline: 0;
+}
+
+.main {
+    width: 80%;
+    margin: 210px auto;
+    background-color: blue;
+    height: 500px;
 }
