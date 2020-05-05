@@ -170,7 +170,7 @@
 .main {
     width: 80%;
     margin: 210px auto;
-    height: 500px;
+    height: auto;
 }
 
 .photo-catalog {
@@ -201,7 +201,7 @@
     justify-content: center;
     position: absolute;
     bottom: 10px;
-    left: 45%;
+    left: 48%;
 }
 
 .circle {
