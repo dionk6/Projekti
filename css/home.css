@@ -120,7 +120,7 @@
     color: #e94c37;
 }
 
-.header-list ul a {
+a {
     color: white;
     text-decoration: none;
 }
@@ -244,4 +244,80 @@ input[name="r"] {
 .slidershow-content p{
     padding-top: 10px;
     font-style: italic;
+}
+.learn {
+    height: 45px;
+    width: 150px;
+    background-color: #e94c37;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.learn:hover{ 
+    background-color: #444444;
+}
+.main-content {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-content {
+    width: 22%;
+    height: auto;
+}
+
+.right-content {
+    width: 75%;
+    height: auto;
+}
+
+.title {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 14px 40px 16px 20px;
+    font-family: 'Segoe UI';
+}
+
+.first-offer {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #f2f2f2;
+}
+.offer-pic img {
+    width: 100%;
+}
+.offer-pic {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.name-price {
+    width: 90%;
+    margin: 0 auto;
+}
+.name-div:nth-of-type(2) {
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 5px;
+}
+
+.name-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 14px;
+    color: black;
+}
+.price {
+    font-weight: bold;
+    color: red;
+}
+.offer-time {
+    font-size: 17px;
+    color: red;
 }
