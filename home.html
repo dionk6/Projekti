@@ -61,28 +61,32 @@
     </div>
 
     <div class="main">
-        <div class="photo-catalog" id="image1">
-            <img src="Images/photo1-home.jpg" class="image-home" alt="">
-            <div class="change-photo-div">
-                <div class="circle"></div>
-                <div onclick="ndrroFoton(this.id)" class="circle" id="image1-circle-two"></div>
-                <div onclick="ndrroFoton(this.id)" class="circle" id="image1-circle-three"></div>
+        <div class="slidershow middle">
+            <div class="slidershow-content">
+                <h1>EACH DAY A BOOK</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing <br/>
+                    and typesetting industry. 
+                </p>
             </div>
-        </div>
-        <div class="photo-catalog" id="image2">
-            <img src="Images/photo2-home.jpg" class="image-home" alt="">
-            <div class="change-photo-div">
-                <div onclick="ndrroFoton(this.id)" class="circle" id="image2-circle-one"></div>
-                <div class="circle"></div>
-                <div onclick="ndrroFoton(this.id)" class="circle" id="image2-circle-three"></div>
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <div class="slide s1">
+                    <img src="Images/photo1-home.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Images/photo2-home.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Images/photo3-home.jpg" alt="">
+                </div>
             </div>
-        </div>
-        <div class="photo-catalog" id="image3">
-            <img src="Images/photo3-home.jpg" class="image-home" alt="">
-            <div class="change-photo-div">
-                <div onclick="ndrroFoton(this.id)" class="circle" id="image3-circle-one"></div>
-                <div onclick="ndrroFoton(this.id)" class="circle" id="image3-circle-two"></div>
-                <div class="circle"></div>
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
             </div>
         </div>
     </div>
