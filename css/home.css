@@ -366,3 +366,67 @@ input[name="r"] {
 .checked{
     color: #ffd559;
 }
+.arrival-div{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #f2f2f2;
+}
+
+.arrival-book{
+    width: 85%;
+    margin: 20px auto;
+    padding-bottom: 35px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.arrival-img img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #f2f2f2;
+}
+.arrival-book-content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 13px;
+}
+.arrival-book-content div:nth-child(2){
+    padding: 5px 0;
+}
+.personi{
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.personi-foto img{
+    border-radius: 50px;
+}
+.personi-foto {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.personi-name{
+    font-size: 18px;
+}
+.personi-name span{
+    font-size: 15px;
+    color: gray;
+}
+.personi-content{
+    text-align: justify;
+    margin: 20px;
+    font-size: 15.5px;
+}
+.personi-content span{
+    font-size: 40px;
+    font-weight: bold;
+}
