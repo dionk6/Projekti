@@ -466,6 +466,18 @@ input[name="r"] {
     justify-content: space-between;
 }
 
+.name-div button{
+    border: none;
+    background-color: #e94c37;
+    color: white;
+    padding: 2px;
+    outline: none;
+    cursor: pointer;
+}
+.name-div button:hover{
+    background-color: #444444;
+}
+
 footer {
     width: 100%;
     height: auto;
