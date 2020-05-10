@@ -116,7 +116,7 @@
     padding: 0 20px;
 }
 
-.header-list ul a:nth-of-type(1) {
+.header-list ul a:nth-of-type(3) {
     color: #e94c37;
 }
 
@@ -378,11 +378,13 @@ footer {
     border: none;
     height: 30px;
     margin-bottom: 20px;
+    outline: none;
+    cursor: pointer;
     
 }
 
-button:hover{
-    background: #e5642f;
+.rightside button:hover{
+    background: #e94c37;
     color: white;
     box-shadow: none;
 }
