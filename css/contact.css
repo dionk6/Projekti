@@ -272,7 +272,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    box-shadow: 5px 5px 5px 5px #444444;
+    box-shadow: 5px 5px 5px 5px #d3d3d3;
 }
 
 .leftside{
