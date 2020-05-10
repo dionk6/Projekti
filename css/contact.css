@@ -169,7 +169,8 @@
 .main {
     width: 80%;
     margin: 210px auto;
-    height: 500px;
+    height: auto;
+    margin-bottom: 30px;
 }
 
 
@@ -385,4 +386,13 @@ button:hover{
     background: #e5642f;
     color: white;
     box-shadow: none;
+}
+
+.title {
+    margin: 20px 0;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 14px 40px 16px 20px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
 }
