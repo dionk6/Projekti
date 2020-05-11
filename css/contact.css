@@ -261,6 +261,10 @@ footer {
     width: 100%;
     height: 25%;
 }
+
+.search-icon button{
+    cursor: pointer;
+}
 /*--------------------- Albani ------------------------*/
 #content{
     color: #333333;
@@ -387,6 +391,10 @@ footer {
     background: #e94c37;
     color: white;
     box-shadow: none;
+}
+
+.rightside textarea{
+    resize: vertical;
 }
 
 .title {
