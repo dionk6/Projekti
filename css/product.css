@@ -214,6 +214,11 @@ a {
     background-color: #e94c37;
     border: none;
     color: white;
+    outline: none;
+    cursor: pointer;
+}
+#titulli button:hover {
+    background-color: #444444;
 }
 
 

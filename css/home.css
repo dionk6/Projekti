@@ -470,9 +470,15 @@ input[name="r"] {
     border: none;
     background-color: #e94c37;
     color: white;
-    padding: 2px;
+    padding: 5px;
     outline: none;
     cursor: pointer;
+    font-size: 12px;
+}
+
+.four-books .name-div button{
+    padding: 3px;
+    font-size: 10px;
 }
 .name-div button:hover{
     background-color: #444444;
