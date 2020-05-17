@@ -4,6 +4,13 @@ function Buy(title){
     window.location.href='product.html'+queryString;
 }
 
+fixedPosition();
+function fixedPosition(){
+    var height = document.getElementById("upp").offsetHeight + 30;
+    var main = document.getElementsByClassName("main")[0];
+    main.style.marginTop=height+"px";
+}
+
 
 function right(){
     var slides = document.getElementsByClassName('slide');

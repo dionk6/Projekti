@@ -153,8 +153,9 @@
     width: 100%;
     position: fixed;
     top: 0;
-    height: 20%;
+    height: auto;
     background-color: white;
+    z-index: 3;
 }
 
 .search-icon button {
@@ -168,7 +169,7 @@
 
 .main {
     width: 80%;
-    margin: 210px auto;
+    margin: 0 auto;
 }
 .ourmission{
     display:flex;

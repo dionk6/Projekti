@@ -149,7 +149,7 @@ a {
     width: 100%;
     position: fixed;
     top: 0;
-    height: 20%;
+    height: auto;
     background-color: white;
     z-index: 3;
 }
@@ -164,7 +164,7 @@ a {
 }
 .main {
     width: 80%;
-    margin: 210px auto;
+    margin: 0 auto;
     height: auto;
     margin-bottom: 50px;
 }
