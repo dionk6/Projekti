@@ -11,13 +11,12 @@ function fixedPosition(){
     main.style.marginTop=height+"px";
 }
 
-
 function right(){
     var slides = document.getElementsByClassName('slide');
     var index =0;
     for(var slide of slides){
         index++;
-        if(slide.classList.contains('show-slide') && index<3){
+        if(slide.classList.contains('show-slide') && index<slides.length){
             slide.classList.remove('show-slide');
             slide.classList.add('remove-slide');
             slide.nextElementSibling.classList.remove('remove-slide');
