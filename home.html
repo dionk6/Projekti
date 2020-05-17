@@ -61,8 +61,20 @@
     </div>
 
     <div class="main">
-        <div class="slidershow middle">
-            <div class="slidershow-content">
+        <div class="sliderFull">
+            <div class="slider-div">
+                <div class="slide show-slide">
+                    <img src="Images/photo1-home.jpg" alt=""> 
+                </div>
+                <div class="slide remove-slide">
+                    <img src="Images/photo2-home.jpg" alt="">
+                </div>
+                <div class="slide remove-slide">
+                    <img src="Images/photo3-home.jpg" alt="">
+                </div>  
+            </div>
+            
+            <div class="slidershow-text">
                 <h1>EACH DAY A BOOK</h1>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing <br/>
@@ -72,25 +84,21 @@
                     <a href="about.html">Learn more about us</a>
                 </div>
             </div>
-            <div class="slides">
-                <input type="radio" name="r" id="r1" checked>
-                <input type="radio" name="r" id="r2">
-                <input type="radio" name="r" id="r3">
-                <div class="slide s1">
-                    <img src="Images/photo2-home.jpg" alt="">
+            <div class="slidershow-content">
+                <div class="left-content-slidershow">
+                    <div class="button-slideshow left" onclick="left()">
+                        <img src="Images/left.png" alt="">
+                    </div>
                 </div>
-                <div class="slide">
-                    <img src="Images/photo1-home.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <img src="Images/photo3-home.jpg" alt="">
+                <div class="right-content-slidershow">
+                    <div class="button-slideshow right" onclick="right()">
+                        <img src="Images/right.png" alt="">
+                    </div>
+
                 </div>
             </div>
-            <div class="navigation">
-                <label for="r1" class="bar"></label>
-                <label for="r2" class="bar"></label>
-                <label for="r3" class="bar"></label>
-            </div>
+
+
         </div>
 
         <div class="main-content">
