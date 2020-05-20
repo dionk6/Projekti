@@ -496,10 +496,13 @@ footer {
 .footer-content{
     margin: 40px 20px;
     width: 15%;
-    height: 200px;
+    height: auto;
     text-align: center;
     font-size: 12px;
 }
+footer .footer-content:nth-child(4){
+    width: auto;
+} 
 .footer-content p{
     padding-bottom: 10px;
 }
