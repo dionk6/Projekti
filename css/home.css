@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 #up {
     width: 80%;
@@ -56,8 +59,9 @@
 .all-cat {
     height: 100%;
     border-right: 1px solid lightgray;
+    padding-left: 13px;
     padding-right: 25px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .search-input {
@@ -69,6 +73,7 @@
     border: none;
     width: 95%;
     outline: 0;
+    font-size: 15px;
 }
 
 .categories-content{
@@ -158,6 +163,10 @@ a {
     z-index: 3;
 }
 
+.search-icon button:hover{
+    color: #e94c37;
+}
+
 .search-icon button {
     background-color: white;
     border: none;
@@ -165,6 +174,7 @@ a {
     font-size: 17px;
     color: black;
     outline: 0;
+    cursor: pointer;
 }
 
 .main {

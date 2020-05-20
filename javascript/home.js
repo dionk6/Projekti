@@ -38,3 +38,20 @@ function left(){
         }
     }
 }
+function search(){
+    var count =0;
+    var input = document.getElementById("searchBook").value.trim();
+    if(input == ""){
+        alert("Please write the book title");
+    } else {
+        var books = document.getElementsByClassName('book');
+        for(var i=0;i<books.length;i++){
+            if(books[i].children[1].children[0].children[0].textContent.trim().toLowerCase()==input.toLowerCase()){
+                books[i].style.display="block";
+                window.scrollTo(0, books[i].offsetTop-300);
+            } else {
+                books[i].style.display="none";
+            }
+        }
+    }
+}
