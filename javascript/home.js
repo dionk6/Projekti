@@ -38,6 +38,14 @@ function left(){
         }
     }
 }
+
+var input = document.getElementById("searchBook");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   document.getElementById("searchButton").click();
+  }
+});
+
 function search(){
     var count =0;
     var input = document.getElementById("searchBook").value.trim();
@@ -46,7 +54,7 @@ function search(){
     } else {
         var books = document.getElementsByClassName('book');
         for(var i=0;i<books.length;i++){
-            if(books[i].children[1].children[0].children[0].textContent.trim().toLowerCase()==input.toLowerCase()){
+            if(books[i].children[1].children[0].children[0].textContent.trim().toLowerCase().includes(input.toLowerCase())){
                 books[i].style.display="block";
                 window.scrollTo(0, books[i].offsetTop-300);
             } else {
