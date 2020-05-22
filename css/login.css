@@ -11,6 +11,25 @@
 
 .login-img-div{
     width: 50%;
+    position: relative;
+}
+.signUpButton:nth-of-type(2){
+    display: none;
+}
+.signUpButton{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    transform: translate(-50%,-50%);    
+}
+.signUpButton button{
+    padding: 11px 30px;
+    border: none;
+    background-color: #e94c37;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
 }
 
 .login-img-div img{

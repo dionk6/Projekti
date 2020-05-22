@@ -1,9 +1,17 @@
 function SignUp(){
     document.getElementById('login').style.display="none";
     document.getElementById('signup').style.display="block";
+    document.getElementsByClassName('signUpButton')[0].style.display="none";
+    document.getElementsByClassName('signUpButton')[1].style.display="block";
+}
+function SignIn(){
+    document.getElementById('login').style.display="block";
+    document.getElementById('signup').style.display="none";
+    document.getElementsByClassName('signUpButton')[0].style.display="block";
+    document.getElementsByClassName('signUpButton')[1].style.display="none";
 }
 
-function backToLogin(){
+function CreateAccount(){
     //------------Full Name Validation
     var fullName = "";
     if(document.getElementById('fullnameInput').value.trim()==""){
@@ -52,8 +60,7 @@ function backToLogin(){
 
     //-------------Create account
     if(username != "" && password != ""){
-        document.getElementById('login').style.display="block";
-        document.getElementById('signup').style.display="none";
+        SignIn();
     }
     //-----------------------------
 }

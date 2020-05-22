@@ -10,13 +10,23 @@
     <div class="main">
         <div class="login-img-div">
             <img src="Images/loginpic.png" alt="">
+            <div class="signUpButton">
+                <button onclick="SignUp()" id="registerButton">
+                    Sign Up
+                </button>
+            </div>
+            <div class="signUpButton">
+                <button onclick="SignIn()" id="registerButton">
+                    Back to Login
+                </button>
+            </div>
         </div>
         <div class="content">
             <div class="login-content" id="login">
                 <p>
                     Login
                 </p>
-                <!-- <form action=""> -->
+                <form action="">
                     <div class="login-form">
                         <label for="">Username</label><br>
                         <input type="text" name="" id="usernameInput">
@@ -29,17 +39,14 @@
                         <button onclick="OpenHomePage()" id="loginButton">
                             Login
                         </button>
-                        <button onclick="SignUp()" id="registerButton">
-                            Sign Up
-                        </button>
                     </div>
-                <!-- </form> -->
+                </form>
             </div>
             <div class="regist-content" id="signup">
                 <p>
                     Sign Up
                 </p>
-                <!-- <form action=""> -->
+                <form action="">
                     <div class="login-form">
                         <label for="">Full Name</label><br>
                         <input type="text" name="" id="fullnameInput">
@@ -60,12 +67,12 @@
                         <label for="">Confirm Password</label><br>
                         <input type="password" name="" id="ConfirmPasswordInput">
                     </div>
-                <!-- </form> -->
-                <div class="butonat-div">
-                    <button onclick="backToLogin()">
-                        Sign Up
-                    </button>
-                </div>
+                    <div class="butonat-div">
+                        <button onclick="CreateAccount()">
+                            Sign Up
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
