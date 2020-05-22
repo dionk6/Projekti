@@ -22,7 +22,13 @@ function right(){
             slide.nextElementSibling.classList.remove('remove-slide');
             slide.nextElementSibling.classList.add('show-slide');
             break;
-        }
+        } // else if(slide.classList.contains('show-slide') && index==slides.length) {
+            // slide.classList.remove('show-slide');
+            // slide.classList.add('remove-slide');
+            // slides[0].classList.remove('remove-slide');
+            // slides[0].classList.add('show-slide');
+            // break;
+        // }
     }
 }
 
@@ -35,7 +41,13 @@ function left(){
             slides[i].previousElementSibling.classList.remove('remove-slide');
             slides[i].previousElementSibling.classList.add('show-slide');
             break;
-        }
+        } // else if(slides[i].classList.contains('show-slide') && i==0){
+            // slides[i].classList.remove('show-slide');
+            // slides[i].classList.add('remove-slide');
+            // slides[slides.length-1].classList.remove('remove-slide');
+            // slides[slides.length-1].classList.add('show-slide');
+            // break;   
+        // }
     }
 }
 
